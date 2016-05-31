@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.skyinno.rxandroidlearntest.activity.SimpleRxActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_map1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=".map变换基础用法"/>
+
+        <Button
+            android:id="@+id/btn_flatMap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=".flatMap基础用法"/>
+
+        <Button
+            android:id="@+id/btn_from"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=".from基础用法"/>
+    </LinearLayout>
+</ScrollView>
