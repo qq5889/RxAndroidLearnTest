@@ -20,6 +20,8 @@
         </activity>
         <activity android:name=".activity.MapRxActivity" >
         </activity>
+        <activity android:name=".activity.FilterActivity" >
+        </activity>
     </application>
 
 </manifest>

@@ -1,6 +1,5 @@
 package com.skyinno.rxandroidlearntest.activity;
 
-import android.os.Bundle;
 import android.os.Looper;
 import android.util.Log;
 import android.view.View;
@@ -13,7 +12,6 @@ import com.skyinno.rxandroidlearntest.RxThreadUtils;
 import java.util.concurrent.TimeUnit;
 
 import butterknife.Bind;
-import butterknife.ButterKnife;
 import butterknife.OnClick;
 import rx.Observable;
 import rx.Subscriber;
@@ -35,10 +33,8 @@ public class SimpleRxActivity extends BaseActivity {
     Button mBtnFrom;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_simple_rx);
-        ButterKnife.bind(this);
+    protected int layoutRes() {
+        return R.layout.activity_simple_rx;
     }
 
     private void checkMainThread() {

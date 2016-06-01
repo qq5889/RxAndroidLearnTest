@@ -1,6 +1,5 @@
 package com.skyinno.rxandroidlearntest.activity;
 
-import android.os.Bundle;
 import android.os.Looper;
 import android.util.Log;
 
@@ -14,7 +13,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
-import butterknife.ButterKnife;
 import butterknife.OnClick;
 import rx.Observable;
 import rx.android.schedulers.AndroidSchedulers;
@@ -28,10 +26,8 @@ public class MapRxActivity extends BaseActivity {
     private final String TAG = getClass().getSimpleName();
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_map_rx);
-        ButterKnife.bind(this);
+    protected int layoutRes() {
+        return R.layout.activity_map_rx;
     }
 
     private void checkMainThread() {
@@ -61,7 +57,7 @@ public class MapRxActivity extends BaseActivity {
      * 将原始发射的数据强转为一个指定类型，是map的特殊版本
      */
     @OnClick(R.id.btn_cast)
-    void onCaseClick() {
+    void onCastClick() {
         Observable.just(10).compose(RxLifecycle.bindLifecycle(this)).compose(RxThreadUtils.convert())
                 .cast(String.class).subscribe(new Action1<String>() {
             @Override
