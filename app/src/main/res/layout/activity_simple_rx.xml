@@ -41,6 +41,7 @@
             android:layout_height="wrap_content"
             android:text=".range基础用法"/>
 
+<<<<<<< HEAD
         <Button
             android:id="@+id/btn_repeat"
             android:layout_width="match_parent"
@@ -66,5 +67,7 @@
             android:text=".defer基础用法"/>
 
 
+=======
+>>>>>>> origin/master
     </LinearLayout>
 </ScrollView>
