@@ -18,6 +18,12 @@
             android:text=".map变换基础用法"/>
 
         <Button
+            android:id="@+id/btn_cast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=".cast基础用法"/>
+
+        <Button
             android:id="@+id/btn_flatMap"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -29,10 +35,36 @@
             android:layout_height="wrap_content"
             android:text=".concatMap基础用法"/>
 
+
+        <Button
+            android:id="@+id/btn_switchMap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=".switchMap基础用法"/>
+
+
         <Button
             android:id="@+id/btn_buffer"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text=".buffer基础用法"/>
+
+        <Button
+            android:id="@+id/btn_groupBy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=".groupBy基础用法"/>
+
+        <Button
+            android:id="@+id/btn_scan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=".scan基础用法"/>
+
+        <Button
+            android:id="@+id/btn_window"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=".window基础用法"/>
     </LinearLayout>
 </ScrollView>
