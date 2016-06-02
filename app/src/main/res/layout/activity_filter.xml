@@ -16,6 +16,28 @@
             android:layout_height="wrap_content"
             android:text=".debounce过滤基础用法"/>
 
+        <Button
+            android:id="@+id/btn_distinct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=".distinct过滤基础用法"/>
 
+        <Button
+            android:id="@+id/btn_distinctUntilChanged"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=".distinctUntilChanged过滤基础用法"/>
+
+        <Button
+            android:id="@+id/btn_elementAt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=".elementAt过滤基础用法"/>
+
+        <Button
+            android:id="@+id/btn_filter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=".filter过滤基础用法"/>
     </LinearLayout>
 </ScrollView>
