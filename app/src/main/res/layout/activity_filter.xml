@@ -39,5 +39,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text=".filter过滤基础用法"/>
+
+        <Button
+            android:id="@+id/btn_ofType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=".ofType过滤基础用法"/>
     </LinearLayout>
 </ScrollView>

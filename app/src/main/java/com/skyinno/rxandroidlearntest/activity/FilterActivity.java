@@ -121,6 +121,9 @@ public class FilterActivity extends BaseActivity {
                 });
     }
 
+    /**
+     * 过滤操作，只返回符合条件的内容
+     */
     @OnClick(R.id.btn_filter)
     void onFilterClick(){
         Observable.range(4,10).compose(RxLifecycle.bindLifecycle(this)).compose(RxThreadUtils.convert())
@@ -134,6 +137,23 @@ public class FilterActivity extends BaseActivity {
                     @Override
                     public void call(Integer integer) {
                         Log.i(TAG,integer+"");
+                    }
+                });
+    }
+
+
+    /**
+     * 等同filter,只保留 是当前类型的数据
+     * 显示数据 1,3
+     */
+    @OnClick(R.id.btn_ofType)
+    void onOfTypeClick(){
+        Observable.just("1",2,"3",4).compose(RxLifecycle.bindLifecycle(this)).compose(RxThreadUtils.convert())
+                .ofType(String.class)
+                .subscribe(new Action1<String>() {
+                    @Override
+                    public void call(String s) {
+                        Log.i(TAG,s);
                     }
                 });
     }
