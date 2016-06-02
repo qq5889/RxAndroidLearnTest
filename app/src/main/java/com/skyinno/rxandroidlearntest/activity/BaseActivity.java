@@ -12,12 +12,14 @@ import butterknife.ButterKnife;
  *         16/5/31 14:11:07
  */
 public abstract class BaseActivity extends AppCompatActivity implements RxLifecycle.Impl{
+    protected String TAG;
     private RxLifecycle mLifecycle = new RxLifecycle();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(layoutRes());
+        TAG = getClass().getSimpleName();
         ButterKnife.bind(this);
     }
 

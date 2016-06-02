@@ -16,8 +16,6 @@ import rx.functions.Func1;
 
 public class FilterActivity extends BaseActivity {
 
-    private final String TAG = getClass().getSimpleName();
-
     @Override
     protected int layoutRes() {
         return R.layout.activity_filter;

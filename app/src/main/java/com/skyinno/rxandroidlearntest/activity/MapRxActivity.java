@@ -23,7 +23,6 @@ import rx.observables.GroupedObservable;
 
 public class MapRxActivity extends BaseActivity {
 
-    private final String TAG = getClass().getSimpleName();
 
     @Override
     protected int layoutRes() {
