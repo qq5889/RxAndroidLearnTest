@@ -45,5 +45,36 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text=".ofType过滤基础用法"/>
+
+        <Button
+            android:id="@+id/btn_first"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=".first过滤基础用法"/>
+
+        <Button
+            android:id="@+id/btn_ignoreElement"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=".ignoreElement过滤基础用法"/>
+
+        <Button
+            android:id="@+id/btn_sample"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=".sample过滤基础用法"/>
+
+
+        <Button
+            android:id="@+id/btn_skip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=".skip/skipLast过滤基础用法"/>
+
+        <Button
+            android:id="@+id/btn_take"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=".take相关过滤基础用法"/>
     </LinearLayout>
 </ScrollView>
