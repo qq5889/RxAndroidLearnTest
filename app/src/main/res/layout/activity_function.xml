@@ -11,34 +11,45 @@
         android:orientation="vertical">
 
         <Button
-            android:id="@+id/btn_onErrorReturn"
+            android:id="@+id/btn_delay"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text=".onErrorReturn错误处理用法"/>
+            android:text=".delay的简单用法"/>
 
         <Button
-            android:id="@+id/btn_onErrorResumeNext"
+            android:id="@+id/btn_delaySubscribtion"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text=".onErrorResumeNext错误处理用法"/>
+            android:text=".delaySubscribtion的简单用法"/>
 
         <Button
-            android:id="@+id/btn_onExceptionErrorResumeNext"
+            android:id="@+id/btn_do"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text=".onExceptionErrorResumeNext错误处理用法"/>
+            android:text=".do的简单用法"/>
 
         <Button
-            android:id="@+id/btn_retry"
+            android:id="@+id/btn_materialize"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text=".retry错误处理用法"/>
-
+            android:text=".materialize的简单用法"/>
 
         <Button
-            android:id="@+id/btn_retryWhen"
+            android:id="@+id/btn_timeInterval"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text=".retryWhen错误处理用法"/>
+            android:text=".timeInterval的简单用法"/>
+
+        <Button
+            android:id="@+id/btn_timeStamp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=".timeStamp的简单用法"/>
+
+        <Button
+            android:id="@+id/btn_timeOut"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=".timeOut的简单用法"/>
     </LinearLayout>
 </ScrollView>

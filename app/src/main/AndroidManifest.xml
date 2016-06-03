@@ -26,6 +26,8 @@
         </activity>
         <activity android:name=".activity.CatchActivity">
         </activity>
+        <activity android:name=".activity.FunctionActivity">
+        </activity>
     </application>
 
 </manifest>
