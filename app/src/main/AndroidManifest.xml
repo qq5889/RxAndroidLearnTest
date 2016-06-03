@@ -24,6 +24,8 @@
         </activity>
         <activity android:name=".activity.CombineActivity">
         </activity>
+        <activity android:name=".activity.CatchActivity">
+        </activity>
     </application>
 
 </manifest>

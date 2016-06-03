@@ -16,5 +16,48 @@
             android:layout_height="wrap_content"
             android:text=".combineLatest组合基础用法"/>
 
+        <Button
+            android:id="@+id/btn_join"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=".join组合基础用法"/>
+
+        <Button
+            android:id="@+id/btn_groupJoin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=".groupJoin组合基础用法"/>
+
+
+        <Button
+            android:id="@+id/btn_merge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=".merge组合基础用法"/>
+
+
+        <Button
+            android:id="@+id/btn_startWith"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=".startWith组合基础用法"/>
+
+        <Button
+            android:id="@+id/btn_concatWith"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=".concatWith组合基础用法"/>
+
+        <Button
+            android:id="@+id/btn_switchOnNext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=".switchOnNext组合基础用法"/>
+
+        <Button
+            android:id="@+id/btn_zip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=".zip组合基础用法"/>
     </LinearLayout>
 </ScrollView>

@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         mList.add(new IntentBean("简单的变换使用", MapRxActivity.class));
         mList.add(new IntentBean("简单的过滤使用", FilterActivity.class));
         mList.add(new IntentBean("简单的结合使用", CombineActivity.class));
-
+        mList.add(new IntentBean("错误处理的使用", CatchActivity.class));
 
     }
 }
