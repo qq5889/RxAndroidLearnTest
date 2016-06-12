@@ -51,6 +51,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         mList.add(new IntentBean("简单的结合使用", CombineActivity.class));
         mList.add(new IntentBean("错误处理的使用", CatchActivity.class));
         mList.add(new IntentBean("功能性操作符的简单使用", FunctionActivity.class));
+        mList.add(new IntentBean("条件和布尔操作的使用", FactorActivity.class));
+
 
     }
 }
