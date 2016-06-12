@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         mList.add(new IntentBean("错误处理的使用", CatchActivity.class));
         mList.add(new IntentBean("功能性操作符的简单使用", FunctionActivity.class));
         mList.add(new IntentBean("条件和布尔操作的使用", FactorActivity.class));
-
+        mList.add(new IntentBean("算数和聚合操作的使用", CalculateActivity.class));
 
     }
 }

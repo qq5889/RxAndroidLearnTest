@@ -30,6 +30,8 @@
         </activity>
         <activity android:name=".activity.FactorActivity">
         </activity>
+        <activity android:name=".activity.CalculateActivity">
+        </activity>
     </application>
 
 </manifest>
