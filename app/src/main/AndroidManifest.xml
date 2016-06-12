@@ -32,6 +32,8 @@
         </activity>
         <activity android:name=".activity.CalculateActivity">
         </activity>
+        <activity android:name=".activity.ConnectActivity">
+        </activity>
     </application>
 
 </manifest>
